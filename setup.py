@@ -1,10 +1,11 @@
-from setuptools import setup, find_packages
+__version__ = '0.1.0'
 
-__version__ = "0.1.0"
+from setuptools import setup
 
 setup(
-    name="inteldove-backend",
+    name='inteldove-backend',
     version=__version__,
-    packages=find_packages(),
-    install_requires=[],
+    description='INTELDOVE Backend',
+    author='Aldric Marshall',
+    packages=[],
 )
